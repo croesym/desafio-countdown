@@ -5,13 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Countdown Rocket</title>
 </head>
 <body>
-    <div class="container">
-        <div class="top-img"><img src="assets/images/top-image.svg" alt=""></div>
+    <header><img src="/assets/images/top-image.svg" alt=""></header>
 
-        <div class="bottom-img"><img src="assets/images/bottom-image.svg" alt=""></div>
+    <div class="container">
+        <div class="timer-content">
+
+            <div class="timer-tittle">
+                <p id="timer-tittle">Ready to launch in...</p>
+            </div>
+
+            <div class="timer">
+
+                <div id="time">
+                    <!-- Tempo renderizado no JS -->
+                </div>
+            
+            </div>
+
+            <div class="button-container">
+
+                <p id="button-description">Inscreva-se para saber mais sobre o lançamento</p>
+                <button id="subscribe">Inscreva-se</button>
+               
+            </div>
+           
+
+        </div>
+
+        <div class="rocket">
+            <img src="/assets/images/rocket.svg" alt="">
+        </div>
     </div>
+
+    <div class="footer"><img src="/assets/images/bottom-image.svg" alt=""></div>
+    <script src="/js/main.js"></script>
 </body>
 </html>
