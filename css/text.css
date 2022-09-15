@@ -1,0 +1,49 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+#timer-tittle{
+    color: #6C63FF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+}
+
+#time{
+    color: #4D4C59;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 108px;
+    letter-spacing: 0.10em;
+}
+
+#legenda{
+    color: #C8C8C8;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+#subscribe{
+    background-color: #6C63FF;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+#button-description{
+    color: #9C9AB6;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
